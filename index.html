@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Eindopdracht 1</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="titel">Categorie</div>
+      <div id="titel-2">Mockup history | RSS</div>
+      <div id="header">
+        Uw taal:
+        <select name="Taal" id="select">
+          <option value="Nederlands" selected="selected">Nederlands</option>
+          <option value="Engels">Engels</option>
+        </select>
+        <div id="header-container">
+          <a href="link1.html">Mijn account</a>
+          <a href="">|</a>
+          <a href="link2.html">Afrekenen</a>
+          <a href="">|</a>
+          <a href="link3.html">Inloggen</a>
+        </div>
+      </div>
+
+      <div id="header-2">
+        <img
+          src="https://www.caci.nl/wp-content/uploads/2022/03/GLU_FULL_RGB_nieuw-logo-klein.jpg"
+          alt="Logo"
+        />
+        <div id="header-2-container">
+          <a href="link1.html">Home</a>
+          <a href="link2.html">Muurdecoratie</a>
+          <a href="link3.html">Doosjes</a>
+          <a href="link4.html">Opbergers</a>
+          <a href="link5.html">Stools</a>
+          <a href="link6.html">Gadgets</a>
+        </div>
+      </div>
+      <div id="sidebar">
+        <div id="sidebar-titel"><a href="link6.html">Home</a> > Doosjes</div>
+        <div id="sidebar-4">
+          Doosjes
+          <hr style="border: none; border-top: 3px solid black" />
+          > Subcategorie 1 <br />
+          > Subcategorie 2 <br />
+          > Subcategorie 3
+        </div>
+        <div id="sidebar-5">
+          Uw selectie verfijnen
+
+          <hr style="border: none; border-top: 3px solid black" />
+          <div id="materiaal-titel">Materiaal</div>
+          > Hout (14) <br />
+          > Plastiek (12) <br />
+          > Metaal (13) <br />
+          > Rubber (11)
+          <div id="more"><a href="link6.html">More..</a></div>
+        </div>
+        <div id="sidebar-4">
+          Prijs
+          <hr style="border: none; border-top: 3px solid black" />
+          <div class="slider-container">
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="75"
+              id="priceSlider"
+            />
+            <p>
+              € 0
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp; €
+              <span id="sliderValue"></span>
+            </p>
+          </div>
+        </div>
+        <div id="sidebar-4">
+          Recent bekeken
+
+          <hr style="border: none; border-top: 3px solid black" />
+          <img id="image-2" src="cross.jpg" alt="Image" /> CD Doosje
+        </div>
+        <div id="sidebar-4">
+          Nieuwsbrief
+          <hr style="border: none; border-top: 3px solid black" />
+          <input id="inschrijven-field" type="text" name="inschrijven-field" />
+          <button id="inschrijven-button">Inschrijven</button>
+        </div>
+        <div id="sidebar-6">
+          Product vergelijken (2)
+          <hr style="border: none; border-top: 3px solid black" />
+          <div id="set-link">
+            <a href="link6.html">Set van vierkante doosjes</a>
+          </div>
+          <div id="set-link">
+            <a href="link6.html">Set van vierkante doosjes</a>
+          </div>
+          <hr
+            style="border: none; border-top: 3px solid black; margin-top: -10px"
+          />
+          <button id="inschrijven-button">Vergelijken</button>
+        </div>
+      </div>
+      <div id="content">
+        <div id="content-titel">Doosjes</div>
+        <div id="content-container-2">
+          <select id="content-dropdown" name="Taal" id="select">
+            <option value="Nederlands" selected="selected">
+              Sorteer op: Naam
+            </option>
+            <option value="Engels">Sorteer op: Populariteit</option>
+            <option value="Engels">Sorteer op: Prijs, laag naar hoog</option>
+            <option value="Engels">Sorteer op: Prijs, hoog naar laag</option>
+          </select>
+          <select id="content-dropdown-2" name="Taal" id="select">
+            <option value="Nederlands" selected="selected">
+              Toon 9 per pagina
+            </option>
+            <option value="Engels">Toon 12 per pagina</option>
+            <option value="Engels">Toon 15 per pagina</option>
+            <option value="Engels">Toon 18 per pagina</option>
+          </select>
+        </div>
+        <hr style="border: none; border-top: 3px solid black" />
+        <div id="content-artikelen">9 artikel(en)</div>
+        <div id="content-container">
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <div id="content-1">
+            <img id="cross" src="cross.jpg" alt="Image" />CD Doosje
+          </div>
+          <hr
+            id="border"
+            style="
+              border: none;
+              border-top: 3px solid black;
+              margin-top: 20px;
+              margin-left: 10px;
+            "
+          />
+          <div id="content-artikelen-2">9 artikel(en)</div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footer-container-1">
+          VEILIG BETALEN
+          <div id="footer-tekst-1">
+            Betaal in alle veiligheid met onze partners
+            <div id="square-container">
+              <div id="square"></div>
+              <div id="square"></div>
+              <div id="square"></div>
+            </div>
+            <div id="square-2"></div>
+          </div>
+        </div>
+        <div id="footer-container-2">
+          LEVERINGSKOSTEN
+          <div id="footer-tekst-2">Transport tarieven</div>
+        </div>
+        <div id="footer-container-3">
+          KLANTENSERVICE
+          <div id="footer-tekst-3">
+            • Paswoord vergeten • Veilige betaling <br />
+            • Levering <br />
+            • Annuleren, retourneren en ruilen
+          </div>
+        </div>
+        <div id="footer-container-4">
+          OVER ONS
+          <div id="footer-tekst-4">
+            • Over ons <br />• Contactinformatie <br />• Algemene voorwaarden
+            <br />
+            • Privacy beleid
+          </div>
+        </div>
+      </div>
+      <div id="footer-2">Webshop door Indiegroup</div>
+    </div>
+  </body>
+</html>

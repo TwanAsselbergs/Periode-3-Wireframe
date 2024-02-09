@@ -1,0 +1,292 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 935px;
+  margin: 0 auto;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+#titel {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#titel-2 {
+  color: rgb(82, 82, 209);
+  font-size: 15px;
+}
+
+#header {
+  border: 2px solid black;
+  width: 890px;
+  height: 25px;
+  display: flex;
+}
+
+#header-container {
+  margin-top: -10px;
+  margin-left: 455px;
+  color: blue;
+}
+
+#select {
+  margin-left: 5px;
+}
+
+#header-2 {
+  border: 2px solid black;
+  width: 890px;
+  height: 100px;
+  margin-top: -10px;
+  display: flex;
+}
+
+#header-2-container a {
+  color: black;
+  text-decoration: none;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+#sidebar {
+  width: 180px;
+  border: 2px solid black;
+  height: 1000px;
+  float: left;
+  margin-top: -10px;
+}
+
+#sidebar-1 {
+  width: 140px;
+  border: 2px solid black;
+  height: 50px;
+}
+
+#sidebar-container {
+  border: none;
+  display: flex;
+}
+
+#sidebar-2 {
+  width: 100px;
+  border: 2px solid black;
+  height: 50px;
+}
+
+#sidebar-3 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+
+#sidebar-4 {
+  width: 150px;
+  border: 2px solid black;
+  height: 100px;
+}
+
+#sidebar-5 {
+  width: 150px;
+  border: 2px solid black;
+  height: 190px;
+}
+
+#sidebar-6 {
+  width: 150px;
+  border: 2px solid black;
+  height: 160px;
+}
+
+#materiaal-titel {
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+#more {
+  margin-left: 95px;
+}
+
+#set-link {
+  width: 200px;
+  font-size: 13px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+#content {
+  width: 670px;
+  border: 1.5px solid black;
+  height: 1000px;
+  float: left;
+  margin-top: -10px;
+  font-size: 20px;
+  margin-right: 10.2px;
+}
+
+#cross {
+  height: 150px;
+}
+
+#content-container {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  width: 700px;
+}
+
+#content-container-2 {
+  margin-top: -10px;
+  margin-left: 455px;
+}
+
+#content-dropdown {
+  display: flex;
+  margin-top: -40px;
+  width: 135px;
+  margin-left: -130px;
+}
+
+#content-dropdown-2 {
+  display: flex;
+  width: 140px;
+  margin-top: -18px;
+  margin-left: 30px;
+}
+
+#content hr {
+  width: 650px;
+  margin-top: -15px;
+}
+
+#content-artikelen {
+  font-size: 13px;
+}
+
+#content-artikelen-2 {
+  font-size: 13px;
+}
+
+#content-1 {
+  width: 175px;
+  border: 2px solid black;
+  height: 200px;
+}
+
+#border {
+  display: flex;
+  margin-top: -50px;
+}
+
+#footer {
+  width: 893px;
+  border: 2px solid black;
+  height: 160px;
+  display: flex;
+  background-color: #eef2f1;
+}
+
+#footer-container-1 {
+  font-size: 20px;
+}
+
+#footer-container-2 {
+  font-size: 20px;
+}
+
+#footer-container-3 {
+  font-size: 20px;
+}
+
+#footer-container-4 {
+  font-size: 20px;
+}
+
+#footer-tekst-1 {
+  width: 180px;
+  font-size: 15px;
+  margin-left: -10px;
+}
+
+#footer-tekst-2 {
+  font-size: 15px;
+  margin-left: -10px;
+}
+
+#footer-tekst-3 {
+  width: 140px;
+  font-size: 15px;
+  margin-left: -10px;
+}
+
+#footer-tekst-4 {
+  width: 180px;
+  font-size: 15px;
+  margin-left: -10px;
+}
+
+#footer-2 {
+  width: 893px;
+  border: 2px solid black;
+  height: 20px;
+  margin-top: -10px;
+  background-color: #98aba9;
+}
+
+#square-container {
+  display: flex;
+}
+
+#square {
+  background-color: white;
+  border: 2px solid black;
+  width: 5000%;
+  margin-top: -15px;
+  margin-left: -5px;
+}
+
+#square-2 {
+  background-color: white;
+  border: 2px solid black;
+  margin-top: -23px;
+  margin-left: 42px;
+  width: 55px;
+}
+
+.slider-container {
+  width: 300px;
+  margin: auto;
+}
+
+#image-2 {
+  width: 50px;
+}
+
+#square-3 {
+  background-color: white;
+  border: 2px solid black;
+  /* margin-left: 42px; */
+  width: 110px;
+}
+
+#inschrijven-button {
+  background-color: #4498ff;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  border: 2px solid black;
+  width: 125px;
+  margin-left: 14px;
+}
+
+#inschrijven-field {
+  width: 115px;
+  margin-left: 15.5px;
+  margin-bottom: 7.5px;
+}
