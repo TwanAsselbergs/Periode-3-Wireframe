@@ -88,18 +88,21 @@ div {
 #sidebar-4 {
   width: 150px;
   border: 2px solid black;
+  border-top: #4498ff 3.5px solid;
   height: 100px;
 }
 
 #sidebar-5 {
   width: 150px;
   border: 2px solid black;
+  border-top: #4498ff 3.5px solid;
   height: 190px;
 }
 
 #sidebar-6 {
   width: 150px;
   border: 2px solid black;
+  border-top: #4498ff 3.5px solid;
   height: 160px;
 }
 
